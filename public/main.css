@@ -1,30 +1,30 @@
 .app-container {
-  display: grid;
+  display: flex;
 }
 
 .wood-header {
+  display: flex;
   width: 100%;
 }
 
 h1 {
-   top: 130px;
-   left: 30px;
    width: 100%;
    font-family: 'Cabin Sketch', cursive;
    font-size: 50px;
 }
 
 h2 {
-   top: 200px;
-   left: 30px;
    width: 100%;
    font-family: 'Caveat', cursive;
    font-size: 30px;
 }
 
 .nav {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #eee;
+  padding: 20px;
   font-family: 'Cabin Sketch', cursive;
   font-size: 20px;
 }
