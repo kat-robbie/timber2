@@ -1,5 +1,6 @@
 .app-container {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .wood-header {
@@ -7,24 +8,46 @@
   width: 100%;
 }
 
+/* We tell all items to be 100% width */
+.header, .nav, .mainhome {
+  flex: 1 100%;
+}
+
+.header {
+  background: #a6bc95;
+}
+
+.nav {
+  display: flex;
+  background: #13100D;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
+  color: #DBD2C1;
+  justify-content: flex-end;
+}
+
+.mainhome {
+  background: #bb9fc4
+}
+
+.home {
+  padding: 10px;
+}
+
+.gallery {
+  padding: 10px;
+}
+
+.contact {
+  padding: 10px;
+}
+
 h1 {
-   width: 100%;
    font-family: 'Cabin Sketch', cursive;
    font-size: 50px;
 }
 
 h2 {
-   width: 100%;
    font-family: 'Caveat', cursive;
    font-size: 30px;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background: #eee;
-  padding: 20px;
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 20px;
 }
