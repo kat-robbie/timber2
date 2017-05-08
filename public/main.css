@@ -15,6 +15,7 @@
 
 .header {
   background: #a6bc95;
+  position: relative;
 }
 
 .nav {
@@ -51,9 +52,17 @@
 h1 {
    font-family: 'Cabin Sketch', cursive;
    font-size: 50px;
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
 }
 
 h2 {
    font-family: 'Caveat', cursive;
    font-size: 30px;
+   position: absolute;
+   top: 275px;
+   left: 0;
+   width: 100%;
 }
