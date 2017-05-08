@@ -1,10 +1,12 @@
+.app-container {
+  display: grid;
+}
+
 .wood-header {
-  position: relative;
   width: 100%;
 }
 
 h1 {
-   position: absolute;
    top: 130px;
    left: 30px;
    width: 100%;
@@ -13,7 +15,6 @@ h1 {
 }
 
 h2 {
-   position: absolute;
    top: 200px;
    left: 30px;
    width: 100%;
@@ -22,7 +23,8 @@ h2 {
 }
 
 .nav {
-  position: absolute;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
   font-family: 'Cabin Sketch', cursive;
   font-size: 20px;
 }

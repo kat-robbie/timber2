@@ -5,17 +5,18 @@ import Home from './Home'
 import Nav from './Nav'
 import Gallery from './Gallery'
 import Contact from './Contact'
+import Header from './Header'
 
 function App () {
   return (
     <div className='app-container'>
       <Nav />
+      <Header />
       <Router>
         <div>
           <Route exact path='/' component={Home}/>
           <Route path='/gallery' component={Gallery}/>
           <Route path='/contact' component={Contact}/>
-
         </div>
       </Router>
     </div>
