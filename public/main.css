@@ -42,6 +42,12 @@
   padding: 10px;
 }
 
+.text {
+  position: absolute;
+  top: auto;
+  background: #eee;
+}
+
 h1 {
    font-family: 'Cabin Sketch', cursive;
    font-size: 50px;
