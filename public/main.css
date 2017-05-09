@@ -9,7 +9,7 @@
 }
 
 /* We tell all items to be 100% width */
-/*.header, .nav, .mainhome {
+/*.header, .nav, .homepage, .wood-image {
   flex: 1 100%;
 }*/
 
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.wood-header {
+.wood-image {
   width: 100%;
 }
 
