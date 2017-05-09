@@ -10,8 +10,8 @@ import Header from './Header'
 function App () {
   return (
     <div className='app-container'>
-      <Nav />
       <Header />
+      <Nav />
       <Router>
         <div>
           <Route exact path='/' component={Home}/>
