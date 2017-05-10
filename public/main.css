@@ -46,7 +46,7 @@
 
 /* Medium screens */
 @media all and (max-width: 800px) {
-  .nav, .text-header {
+  .nav, .text-header, .text-sub {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
@@ -54,13 +54,13 @@
 
 /* Small screens */
 @media all and (max-width: 500px) {
-  .nav, .text-sub {
+  .nav, .text-header, .text-sub {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
 }
 
-.homepage {
+.homepage, .about, .contact, .gallery {
   font-family: 'Noto Sans', sans-serif;
   font-size: 25px;
   padding: 100px;
