@@ -8,11 +8,6 @@
   width: 100%;
 }
 
-/* We tell all items to be 100% width */
-/*.header, .nav, .homepage, .wood-image {
-  flex: 1 100%;
-}*/
-
 .header {
   position: relative;
 }
@@ -22,21 +17,40 @@
 }
 
 .nav {
-  display: flex;
+  list-style: none;
   font-family: 'Cabin Sketch', cursive;
-  font-size: 26px;
+  font-size: 30px;
   color: black;
   justify-content: flex-end;
   position: absolute;
   width: 97%;
-  top: 90px;
+  top: 110px;
+
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
 }
 
 .homepage {
   font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  padding: 100px;
 }
 
-.home {
+/*.home {
   padding: 10px;
 }
 
@@ -46,7 +60,7 @@
 
 .contact {
   padding: 10px;
-}
+}*/
 
 h1 {
    font-family: 'Cabin Sketch', cursive;
