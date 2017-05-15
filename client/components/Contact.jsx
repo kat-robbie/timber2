@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <div className="contact">
       Contact
-      <img className="wood-image" src="" alt="Woodgrain Header" />
+      <div>
+        <img src="https://github.com/kat-robbie/timber2/blob/master/public/images/email.gif?raw=true" alt="Woodgrain Header" />
+      </div>
     </div>
   )
 }
