@@ -22,3 +22,13 @@ export default Contact
 //     document.write("<h1>Out with the old - in with the new!</h1>");
 //     document.close();
 //   }
+
+// <style>
+//     .email:after{ content:'@mydomain.com'; }
+//     </style>
+//     Contact me at:<div class="email">myemail</div>
+//     <script>
+// $('.email').click(function(){
+// window.location.href='mailto:'+$(this).html()+'@mydomain.com';
+// });
+// </script>
