@@ -83,3 +83,10 @@
    top: 185px;
    left: 30px;
 }
+
+h1 {
+  font-size: 2em;
+  position: absolute;
+  top: 500px;
+  left: 110px;
+}
