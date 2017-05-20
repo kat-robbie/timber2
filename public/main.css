@@ -90,3 +90,7 @@ h1 {
   top: 500px;
   left: 110px;
 }
+
+.dummy {
+  display: none;
+}
