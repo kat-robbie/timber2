@@ -4,10 +4,12 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="contact">
-      Contact
+      Get in touch via email
       <div>
-        ianrobbie<span className="dummy">REMOVE</span>@xtra.co<span className="dummy">REMOVE</span>.nz
+        ianrobbie<span className="hidden">REMOVE</span>@xtra.co<span className="hidden">REMOVE</span>.nz
       </div>
+      Or phone
+      021 676 9824
     </div>
   )
 }
