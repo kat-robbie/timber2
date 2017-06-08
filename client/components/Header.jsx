@@ -11,7 +11,7 @@ const Header = () => {
         Real Wood Products
       </div>
       <div className="text-sub">
-            Milling and crafting timber in New Zealand
+        Milling and crafting timber in New Zealand
       </div>
     </div>
   )
