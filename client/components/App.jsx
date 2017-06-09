@@ -7,12 +7,11 @@ import About from './About'
 import Gallery from './Gallery'
 import Contact from './Contact'
 import Header from './Header'
+import Image from './Image'
 
 function App () {
   return (
     <div className='app-container'>
-      <Header />
-      <Nav />
       <Router>
         <div>
           <Route exact path='/' component={Home}/>
@@ -21,6 +20,9 @@ function App () {
           <Route path='/contact' component={Contact}/>
         </div>
       </Router>
+      <Header />
+      <Nav />
+      <Image />
     </div>
   )
 }
