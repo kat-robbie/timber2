@@ -27,7 +27,7 @@ function App () {
 
       <div className="divider"></div>
 
-        <div className="services">
+      <div className="services">
         <div className="container">
           <div className="row">
             <div className="four columns">
@@ -45,6 +45,24 @@ function App () {
               <h3>Rocket Man</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <h2 className="testimonial">Testimonials</h2>
+        </div>
+        <div className="row">
+          <div className="six columns">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img className="profile" src="./images/summer-profile-pic.jpg" alt="Profile Picture" />
+            <h4 className="name">Kat is cool</h4>
+          </div>
+          <div className="six columns">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img className="profile" src="./images/summer-profile-pic.jpg" alt="Profile Picture" />
+            <h4 className="name">Kat is cool</h4>
           </div>
         </div>
       </div>
