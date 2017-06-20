@@ -11,20 +11,31 @@ import Image from './Image'
 
 function App () {
   return (
-    <div className='app-container'>
-      <Router>
-        <div>
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/gallery' component={Gallery}/>
-          <Route path='/contact' component={Contact}/>
+    <div className="hero">
+      <div className="container">
+        <div className="row">
+          <div className="six columns">
+            <h1>Basic Page</h1>
+            <h2>Test test test test</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button className="button button-primary">Press the button</button>
+          </div>
         </div>
-      </Router>
-      <Header />
-      <Nav />
-      <Image />
+      </div>
     </div>
   )
 }
 
 export default App
+
+// <Router>
+//   <div>
+//     <Route exact path='/' component={Home}/>
+//     <Route path='/about' component={About}/>
+//     <Route path='/gallery' component={Gallery}/>
+//     <Route path='/contact' component={Contact}/>
+//   </div>
+// </Router>
+// <Header />
+// <Nav />
+// <Image />
