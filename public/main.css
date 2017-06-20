@@ -57,3 +57,48 @@ i {
   display: inline-block;
   padding-top: 20px;
 }
+
+.past-clients {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gray;
+}
+
+.past-clients img {
+  height: 100px;
+  width: auto;
+}
+
+.pictures {
+  text-align: center;
+}
+
+.bottom-hero {
+  background-image: url('../images/wood-tree-grain-fallen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.small-divider {
+  height: 5px;
+  width: 100%;
+  background-color: green;
+}
+
+.footer {
+  color: black;
+  background-color: gray;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.hidden {
+  display: none;
+}

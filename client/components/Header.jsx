@@ -3,15 +3,16 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="header">
-      <div>
-        <img className="wood-image" src="https://static.pexels.com/photos/1765/wood-tree-grain-fallen.jpg" alt="Woodgrain Header" />
-      </div>
-      <div className="text-header">
-        Real Wood Products
-      </div>
-      <div className="text-sub">
-        Milling and crafting timber in New Zealand
+    <div className="hero">
+      <div className="container">
+        <div className="row">
+          <div className="six columns">
+            <h1>Real Wood Products</h1>
+            <h2>Milling and crafting timber in New Zealand</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button className="button button-primary">Press the button</button>
+          </div>
+        </div>
       </div>
     </div>
   )
