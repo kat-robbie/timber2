@@ -13,14 +13,10 @@ import Testimonials from './Testimonials'
 
 function App () {
   return (
-    <div>
+    <div className="app">
       <Header />
 
-      <div className="divider"></div>
-
       <Gallery />
-      <Testimonials />
-      <About />
 
       <div className="divider"></div>
 
@@ -33,14 +29,12 @@ function App () {
 
 export default App
 
+
 // <Router>
 //   <div>
-//     <Route exact path='/' component={Home}/>
+//     <Route exact path='/' component={Header}/>
 //     <Route path='/about' component={About}/>
 //     <Route path='/gallery' component={Gallery}/>
 //     <Route path='/contact' component={Contact}/>
 //   </div>
 // </Router>
-// <Header />
-// <Nav />
-// <Image />
