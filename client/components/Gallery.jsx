@@ -3,20 +3,24 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <h2 className="gallery">Gallery</h2>
-      </div>
-      <div className="row">
-        <div className="six columns">
-          <img className="itemImage" src="./images/summer-profile-pic.jpg" alt="Item Image" />
-          <h4 className="itemName">Breakfast table</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div className="galleryfour">
+      <div className="container">
+        <div className="row">
+          <h2>Gallery</h2>
         </div>
-        <div className="six columns">
-          <img className="itemImage" src="./images/summer-profile-pic.jpg" alt="Item Image" />
-          <h4 className="itemName">Product item</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div className="row">
+          <div className="three columns pictures">
+            <img src="./images/table.jpeg" alt="table" />
+          </div>
+          <div className="three columns pictures">
+            <img src="./images/kubb.jpg" alt="kubb" />
+          </div>
+          <div className="three columns pictures">
+            <img src="./images/woodtray.jpeg" alt="past client logo" />
+          </div>
+          <div className="three columns pictures">
+            <img src="./images/woodenrobot.jpg" alt="past client logo" />
+          </div>
         </div>
       </div>
     </div>

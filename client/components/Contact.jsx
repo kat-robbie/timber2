@@ -7,7 +7,6 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <h2 className="">Get in touch</h2>
-            <button className="button button-primary">Request Quote</button>
               <div className="contact">
                 <h4>Email:</h4>
                   <div>
@@ -23,3 +22,6 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+// <button className="button button-primary">Request Quote</button>

@@ -1,9 +1,9 @@
 .app {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .hero {
-  background-image: url('../images/wood-tree-grain-fallen.jpg');
+  background-image: url('../images/woodrounds.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -12,8 +12,20 @@
 }
 
 .hero h1 {
-  font-weight: bold;
   color: white;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+}
+
+.hero h2 {
+  font-size: 35px;
+
+}
+
+.topdivider {
+  height: 15px;
+  width: 100%;
+  background-color: #272727;
 }
 
 .divider {
@@ -59,15 +71,15 @@ i {
   padding-top: 20px;
 }
 
-.past-clients {
+.galleryfour {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: gray;
+  background-color: white;
 }
 
-.past-clients img {
-  height: 100px;
-  width: auto;
+.galleryfour img {
+  width: 230px;
+  height: 170px;
 }
 
 .pictures {
@@ -75,7 +87,7 @@ i {
 }
 
 .bottom-hero {
-  background-image: url('../images/wood-tree-grain-fallen.jpg');
+  background-image: url('../images/forestgreen.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -91,7 +103,7 @@ i {
 
 .footer {
   color: black;
-  background-color: #8A431F;
+  background-color: white;
   text-align: center;
   font-size: 12px;
 }

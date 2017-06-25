@@ -14,7 +14,12 @@ import Testimonials from './Testimonials'
 function App () {
   return (
     <div className="app">
+
+      <div className="topdivider"></div>
+
       <Header />
+
+      <div className="divider"></div>
 
       <Gallery />
 
