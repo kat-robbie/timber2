@@ -1,6 +1,25 @@
 .app {
   padding-top: 30px;
+  background-color: black;
 }
+
+.nav {
+  background-color: white;
+  padding-top: 20px;
+
+}
+
+.list {
+  list-style-type: none;
+  background-color: #444;
+     text-align: right;
+     padding: 0;
+     margin: 0;
+    display: inline;
+    overflow: hidden;
+}
+
+
 
 .hero {
   background-image: url('../images/woodrounds.jpeg');

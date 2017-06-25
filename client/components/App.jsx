@@ -14,6 +14,7 @@ import Testimonials from './Testimonials'
 function App () {
   return (
     <div className="app">
+      <Nav />
 
       <div className="topdivider"></div>
 
@@ -33,7 +34,6 @@ function App () {
 }
 
 export default App
-
 
 // <Router>
 //   <div>
