@@ -13,8 +13,7 @@ import Testimonials from './Testimonials'
 
 function App () {
   return (
-    <div className="app">
-      <Nav />
+    <div className="app"><div/>
 
       <div className="topdivider"></div>
 

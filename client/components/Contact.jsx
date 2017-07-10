@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="bottom-hero">
         <div className="container">
           <div className="row">
-            <h2 className="">Get in touch</h2>
+            <h2 className="">Contact</h2>
               <div className="contact">
                 <h4>Email:</h4>
                   <div>
